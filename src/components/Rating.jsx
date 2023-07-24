@@ -4,7 +4,7 @@ import './Rating.css'
 import starImg from '../images/icon-star.svg'
 import { useState } from 'react'
 
-const Rating=(rating, setRating, setShowThankYouPage )=> {
+const Rating=({rating, setRating, setShowThankYouPage} )=> {
     const[activeRatings,setActiveRatings] =useState({
         rating1:false,
         rating2:false,
@@ -62,9 +62,9 @@ const Rating=(rating, setRating, setShowThankYouPage )=> {
                     });
                     setRating(2)
                 }}
-                 >
-                    2
-                </div>
+            >
+                2
+            </div>
             <div className= {
                 activeRatings.rating3
                  ? "rating_container:active" 
@@ -80,9 +80,9 @@ const Rating=(rating, setRating, setShowThankYouPage )=> {
                     });
                     setRating(3)
                 }}
-                 >
-                    3
-                </div>
+            >
+                3
+            </div>
             <div className= {
                 activeRatings.rating4
                  ? "rating_container:active" 
@@ -98,9 +98,9 @@ const Rating=(rating, setRating, setShowThankYouPage )=> {
                     });
                     setRating(4)
                 }}
-                 >
-                    4
-                </div>
+            >
+                4
+            </div>
             <div className= {
                 activeRatings.rating5
                  ? "rating_container:active" 
@@ -116,9 +116,9 @@ const Rating=(rating, setRating, setShowThankYouPage )=> {
                     });
                     setRating(5)
                 }}
-                 >
-                    5
-                </div>
+            >
+                5
+            </div>
         </div>
         <div className="submit_btn" onClick={handlesubmit}>Submit</div>
     </Card>

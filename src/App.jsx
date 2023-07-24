@@ -4,8 +4,8 @@ import Rating from './components/Rating'
 import ThankYou from './components/ThankYou'
 
 function App() {
-  const[showThankYouPage,setShowThankYouPage]=useState(false);
-  const[rating,setRating] =useState(null);
+  const[showThankYouPage, setShowThankYouPage]=useState(false);
+  const[rating, setRating] =useState(null);
 
   return (
     <>

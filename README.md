@@ -1,6 +1,9 @@
-# Frontend Mentor - Interactive rating component solution
+# Frontend Mentor - Interactive rating component
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+Difficulty level: <span font-weight:bold style="color: cyan;">Newbie</span>
+Time taken by me: <span font-weight:bold style="color: red;">15 hours</span>
 
 ## Table of contents
 
@@ -51,6 +54,7 @@ I made this such that if the user selects the rating of 2 and clicks submit then
 
 ### What I learned
 
+This was my very first web project so it took a lot of time for me to build it. I think I have complicated it by using a lot of react usestate here and there which i guess would have been done in much more easy way.
 My main challenge came up while using {useState} in reactjs.
 I had to add a ternary operator to the return statement to return the rating card depending on the rating.
 
@@ -62,7 +66,7 @@ I would continue focusing on understanding the {useState} method in reactjs as I
 
 ## Author
 
-- Website - [Rohan Sangle](https://www.your-site.com)
+- Linkedin - [Rohan Sangle](https://www.linkedin.com/in/rohan-sangle)
 - Frontend Mentor - [@RohanSangle](https://www.frontendmentor.io/profile/RohanSangle)
 
 

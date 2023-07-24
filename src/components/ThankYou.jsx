@@ -3,7 +3,7 @@ import Card from './Card'
 import './ThankYou.css'
 import thankyouimg from '../images/illustration-thank-you.svg'
 
-function ThankYou(rating) {
+function ThankYou({rating}) {
   return (
     <Card>
         <div className="thankyou_img_container">
