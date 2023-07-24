@@ -2,9 +2,9 @@
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Difficulty level: <span style="color: cyan;">Newbie</span>
+Difficulty level: <font color="cyan">Newbie</font>
 <br>
-Time taken by me: <span style="color: red;">15 hours</span>
+Time taken by me: <font color="red">15 hours</font>
 
 ## Table of contents
 
