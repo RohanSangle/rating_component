@@ -1,3 +1,11 @@
+.main{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    max-width: 90vw;
+    padding: 1.5rem;
+}
+
 .thankyou_img_container{
     display: flex;
     justify-content: center;
