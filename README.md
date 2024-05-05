@@ -1,4 +1,4 @@
-### Interactive rating component
+## Interactive rating component
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -6,7 +6,7 @@ Difficulty level : **Newbie** <br>
 Time taken by me: **7 hours** 
 
 
-### The challenge
+## The challenge
 
 Users should be able to:
 
@@ -26,18 +26,18 @@ ThankYou.jsx had the 2nd card mockup displaying the 'thank you' message after th
 
 I made this such that if the user selects the rating of 2 and clicks submit then for displaying the thankyou card the website should not get refreshed, but only the card component should get rendered. This helps to reduce the time taken to load the website which the website feel smooth and interactive too.
 
-### Screenshots
+## Screenshots
 
 [![photo-2024-05-05-23-31-12.jpg](https://i.postimg.cc/NGnZkhLF/photo-2024-05-05-23-31-12.jpg)](https://postimg.cc/kDxj7pQP)
 
 
-### Tech stack
+## Tech stack
 
 - React.js
 - Vanilla CSS
 
 
-### What I learned
+## What I learned
 
 This was my very first web project so it took a lot of time for me to build it.
 My main challenge came up while using {useState} in reactjs.
