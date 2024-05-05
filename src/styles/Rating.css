@@ -1,3 +1,11 @@
+.main{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    max-width: 90vw;
+    padding: 1.5rem;
+}
+
 .star_img_container{
     display: flex;
     justify-content: center;
@@ -49,6 +57,7 @@
 .rating_container:active{
     background-color: hsl(216,12%,64%);
     color: hsl(234, 30%, 50%);
+
 }
 
 .rating_container:hover{

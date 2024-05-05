@@ -1,8 +1,6 @@
-import React from 'react'
-import Card from "../components/Card"
-import './Rating.css'
+import React,{useState} from 'react'
+import '../styles/Rating.css'
 import starImg from '../images/icon-star.svg'
-import { useState } from 'react'
 
 const Rating=({rating, setRating, setShowThankYouPage} )=> {
     const[activeRatings,setActiveRatings] =useState({
@@ -22,7 +20,7 @@ const Rating=({rating, setRating, setShowThankYouPage} )=> {
 
 
   return (
-    <Card>
+    <div className='main'>
         <div className="star_img_container">
             <img src= {starImg} alt= ""/>
         </div>
@@ -121,7 +119,7 @@ const Rating=({rating, setRating, setShowThankYouPage} )=> {
             </div>
         </div>
         <div className="submit_btn" onClick={handlesubmit}>Submit</div>
-    </Card>
+    </div>
     
   )
 }
